@@ -1,0 +1,44 @@
+.main_nav{
+    top: 2%;
+    width: 100%;
+    /* position: fixed;
+    z-index: 1000; */
+}
+.logo_nav{
+    padding-top: 2px;
+    width: 100%;
+    height: 3rem;
+    padding-right: 5px;
+    margin-bottom: 0;
+    background-color: white;
+}
+.main_nav_div{
+    position: relative;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.main_link_div{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+.sub_sub_link_{
+    display: flex;
+    padding-left: 100px;
+    text-decoration: none;
+    color: rgb(6, 2, 252);
+    font-weight: bold;
+}
+@media screen and (max-width: 1010px) {
+    .nav_toggle_button{
+        position: absolute;
+        right: 0;
+    }
+    
+  }

@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+/* ADD POLLING PAGE CSS */
+.main_div_addpoll{
+    margin-top: 0;
+    padding: 0;
+    /* background-color: aqua; */
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
 }
+.second_main_div{
+    top: 5%;
+    width: 50%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 10%;
+    border: 1px solid black;
+    /* background-color: antiquewhite; */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.label_heading_addpoll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:3vmin;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.options_div_addpoll{
+    width: 80%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    row-gap: 10px;
+    /* background-color: rgb(186, 122, 39); */
 }
