@@ -26,7 +26,7 @@ function Navbarpoll() {
               <div className='main_link_div'>
                 <div><Link to="/" className='sub_sub_link_'>Home</Link></div>
                 <div><Link to="/addpoll" className='sub_sub_link_'>Add new poll</Link></div>
-                <div><Link to="/dummy" className='sub_sub_link_'>Login</Link></div>
+                <div><Link to="/login" className='sub_sub_link_'>Login</Link></div>
               </div>
             </Nav>
           </Navbar.Collapse>

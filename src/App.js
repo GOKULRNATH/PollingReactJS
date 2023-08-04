@@ -4,6 +4,7 @@ import Nav from  "./components/Nav"
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import Polllist from './components/Polllist';
 import Addpoll from './components/Addpoll';
+import Logindummy from './components/Logindummy'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Polllist/>}/>
         <Route exact path='/addpoll' element={<Addpoll/>}/>
+        <Route exact path='/login' element={<Logindummy/>}/>
       </Routes>
       
     </div>
