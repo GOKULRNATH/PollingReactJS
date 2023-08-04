@@ -36,16 +36,16 @@ function Addpoll() {
     <div className='main_div_addpoll'>
       <div className='second_main_div shadow'>
         <label className='label_heading_addpoll'>Enter The Qustions</label>
-        <textarea rows="2" cols="80" placeholder="Enter the question for the poll" name='question' onChange={onchangehandle}></textarea>
+        <textarea className="textarea_div" placeholder="Enter the question for the poll" name='question' onChange={onchangehandle}></textarea>
         <label className='label_heading_addpoll'>Options</label>
         <div className='options_div_addpoll'>
-            <div><input type="text" name="option1" placeholder='option 1'  onChange={onchangehandle}/></div>
-            <div><input type="text" name="option2" placeholder='option 2'  onChange={onchangehandle}/></div>
-            <div><input type="text" name="option3" placeholder='option 3'  onChange={onchangehandle}/></div>
-            <div><input type="text" name="option4" placeholder='option 4'  onChange={onchangehandle}/></div>
+            <div><input type="text" name="option1" placeholder='Option 1'  onChange={onchangehandle}/></div>
+            <div><input type="text" name="option2" placeholder='Option 2'  onChange={onchangehandle}/></div>
+            <div><input type="text" name="option3" placeholder='Option 3'  onChange={onchangehandle}/></div>
+            <div><input type="text" name="option4" placeholder='Option 4'  onChange={onchangehandle}/></div>
         </div>
         <div>
-          <input type='submit'/>
+          <input type='submit' className='submit_addpoll'/>
         </div>
       </div>
         
